@@ -25,7 +25,6 @@ class _WelcomePageState extends State<WelcomePage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Social Owl',
       // This is the theme of application.
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
