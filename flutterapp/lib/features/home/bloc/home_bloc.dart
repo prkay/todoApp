@@ -6,7 +6,6 @@ import 'package:flutterapp/repository/firebase_repository.dart';
 import 'bloc.dart';
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
-  String versiontemp = "";
   @override
   HomeState get initialState => EmptyState(false);
   final FireBaseRepository fireBaseRepository;
